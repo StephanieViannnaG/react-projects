@@ -872,7 +872,7 @@ a.accent-button:active {
 a.muted-button {
   background: transparent;
   border: 1px solid #cdcdcd;
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .muted-button:hover,
@@ -1103,6 +1103,7 @@ th,
 td {
   text-align: left;
   padding: 0.5rem;
+  color: #fff;
 }
 
 caption {
@@ -1111,9 +1112,9 @@ caption {
   color: #ababab;
 }
 
-.striped-table tbody tr:nth-child(odd) {
+/* .striped-table tbody tr:nth-child(odd) {
   background-color: #f8f8f8;
-}
+} */
 
 .contain-table {
   overflow-x: auto;

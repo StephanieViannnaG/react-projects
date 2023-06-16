@@ -1,0 +1,34 @@
+body, h1, h3, h4{
+    color: #fff;
+}
+
+.inner-div-header1{
+    float:right;
+}
+
+.logout-button{
+    font-size: small;
+    cursor: pointer;
+}
+
+.title{
+    padding: 10px;
+    text-align: center;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+}
+
+.userName{
+    margin-bottom: 0px !important;
+}
+
+.app-header{
+    padding: 10px;
+}
+
+.userImage{
+    margin-right: 5px
+}

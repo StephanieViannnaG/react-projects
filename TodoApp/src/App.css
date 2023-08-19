@@ -2,6 +2,13 @@ body, h1, h3, h4{
     color: #fff;
 }
 
+.App {
+/* display: flex;
+justify-content: center;
+align-items: center;     */
+text-align: center
+  }
+
 .inner-div-header1{
     float:right;
 }

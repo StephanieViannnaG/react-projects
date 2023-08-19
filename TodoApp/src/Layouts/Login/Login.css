@@ -1,6 +1,7 @@
 body {
-  background-color: #2b447b;
-}
+  background-color: #E3F7FF;
+};
+
 #root {
   height: auto;
 }
@@ -47,11 +48,12 @@ body {
 }
 
 .login-form-input:hover {
-  color: #fff;
+  color: #000;
 }
 
 .login-form-input:focus {
   outline: 0;
+  color: #000;
 }
 
 #outer-login-form-div {
@@ -63,6 +65,7 @@ body {
   border-width: 0px;
   margin-top: 15px;
   padding: 0px;
+  color: #fff;
 } 
 
 .loading {
@@ -78,6 +81,10 @@ body {
   font-size: 14px;
   text-align: center;
   color: red;
+}
+
+.text-black{
+  color: #000;
 }
 
 @media (max-width: 300px) {

@@ -1,4 +1,4 @@
-Employee Management System
+Todo App
 
 In the project directory, you can run:
 

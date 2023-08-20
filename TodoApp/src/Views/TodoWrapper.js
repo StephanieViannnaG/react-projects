@@ -63,10 +63,14 @@ const TodoWrapper = () => {
     );
   };
 
-  const editTask = (task, id) => {
+  const editTask = (task, id, status) => {
+    console.log(task, id, status);
+
     setTodos(
       todos.map((todo) =>
-        todo.id === id ? { ...todo, task, isEditing: !todo.isEditing } : todo
+        todo.id === id
+          ? { ...todo, task, isEditing: !todo.isEditing, status: status }
+          : todo
       )
     );
     dispatch(

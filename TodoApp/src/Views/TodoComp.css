@@ -16,8 +16,9 @@
     outline: none;
     background: none;
     border: 1px solid #8758ff;
-    width: 300px;
+    width: 250px;
     color: #8189D9;
+    margin-right: 10px;
   }
   
   .todo-input::placeholder {
@@ -58,4 +59,12 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.text-color{
+    color: #8189D9;
+}
+
+.statusSelect{
+  width: 150px;
 }
